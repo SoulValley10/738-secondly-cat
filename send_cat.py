@@ -7,7 +7,7 @@ WEBHOOK_URL = os.environ["DISCORD_WEBHOOK_URL"]
 CAT_API_URL = "https://api.thecatapi.com/v1/images/search"
 
 # Interval in seconds (120 = 2 minutes; change to 738 later)
-INTERVAL_SECONDS = 120
+INTERVAL_SECONDS = 30
 
 # Run for 5 hours (18,000 seconds) so it finishes before GitHub's 6-hour limit
 MAX_RUNTIME_SECONDS = 5 * 60 * 60
